@@ -1,0 +1,43 @@
+    1  git clone https://github.com/Kiyuliya23/git-homwork-gitignore-.git
+    2  cd git-homwork-gitignore
+    3  cd git-homwork-gitignore
+    4  cd~
+    5  cd /c/Users/djull
+    6  pwd
+    7  git clone https://github.com/Kiyuliya23/git-homwork-gitignore-.git
+    8  git pull
+    9  ls
+   10  cd git-homwork-gitignore-
+   11  git status
+   12  cd~
+   13  rm -rf git-homwork-gitignore-
+   14  cd ~
+   15  rm -rf git-homwork-gitignore-
+   16  git clone https://github.com/Kiyuliya23/git-homwork-gitignore-.git
+   17  cd git-homwork-gitignore-
+   18  git status
+   19  git checkout -b feature
+   20  echo "# Git Homwork" > README.md
+   21  echo "Это моя ветка feature" >> README.md
+   22  echo "*.tmp" >> .gitignore
+   23  git status
+   24  git add README.md .gitignore
+   25  git commit -m "Add README and update gitignore"
+   26  git push -u origin feature
+   27  git commit --amend -m "Add readme and update gitignore ammend"
+   28  git push --force-with-lease
+   29  git checkout main
+   30  git pull
+   31  git merge feature
+   32  git push
+   33  git commit --amend -m "Add README and update gitignore ammend"
+   34  git push --force-with-lease
+   35  git branch
+   36   git log --oneline --decorate --graph --all
+   37  git checkout feature
+   38  git log --oneline
+   39  git push --force-with-lease origin feature
+   40  git checkout main
+   41  git merge feature
+   42  git push origin main
+   43  history > history.txt
